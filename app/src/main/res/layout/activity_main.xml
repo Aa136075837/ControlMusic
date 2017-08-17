@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bo.controlmusic.MainActivity"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:padding="10dp"
+        android:id="@+id/pause"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="暂停"
+        />
+    <Button
+        android:padding="10dp"
+        android:id="@+id/voice_large"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="增大"
+        />
+    <Button
+        android:padding="10dp"
+        android:id="@+id/voice_low"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="减小"
+        />
+    <Button
+        android:padding="10dp"
+        android:id="@+id/next_music"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="下一曲"
+        />
+    <Button
+        android:padding="10dp"
+        android:id="@+id/pre_music"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="上一曲"
+        />
+    <Button
+        android:padding="10dp"
+        android:id="@+id/camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="相机"
+        />
+
+</LinearLayout>
